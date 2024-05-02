@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/loans/src/main/main.iml" filepath="$PROJECT_DIR$/loans/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configserver/src/main/main1.iml" filepath="$PROJECT_DIR$/configserver/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/src/main/main2.iml" filepath="$PROJECT_DIR$/eurekaserver/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cards/src/main/main3.iml" filepath="$PROJECT_DIR$/cards/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accounts/src/main/main4.iml" filepath="$PROJECT_DIR$/accounts/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gatewayserver/src/main/main5.iml" filepath="$PROJECT_DIR$/gatewayserver/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/section_11.iml" filepath="$PROJECT_DIR$/.idea/section_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configserver/src/test/test.iml" filepath="$PROJECT_DIR$/configserver/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cards/src/test/test1.iml" filepath="$PROJECT_DIR$/cards/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loans/src/test/test2.iml" filepath="$PROJECT_DIR$/loans/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/src/test/test3.iml" filepath="$PROJECT_DIR$/eurekaserver/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gatewayserver/src/test/test4.iml" filepath="$PROJECT_DIR$/gatewayserver/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accounts/src/test/test5.iml" filepath="$PROJECT_DIR$/accounts/src/test/test5.iml" />
+    </modules>
+  </component>
+</project>

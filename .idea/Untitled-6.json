@@ -1,0 +1,197 @@
+Path to certificate:   /Users/I542524/.temp/cf-instance-credentials/instance-cert.crt
+Path to key:           /Users/I542524/.temp/cf-instance-credentials/instance-key.key
+Path to VCAP_SERVICES: /Users/I542524/.temp/cf-instance-credentials/vcap-services.json
+Path to JKS:           /Users/I542524/.temp/cf-instance-credentials/certificate.jks
+
+
+
+
+adapter :
+
+
+{
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "destination",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "24de1ac4-a854-4f68-b954-91866ad4c640",
+				"instance_name": "destination",
+				"binding_guid": "af146705-a7e0-4567-bc37-6e7b240cddd0",
+				"binding_name": null,
+				"credentials": {
+					"tenantmode": "dedicated",
+					"clientid": "sb-clone24de1ac4a8544f68b95491866ad4c640!b130530|destination-xsappname!b404",
+					"credential-type": "binding-secret",
+					"xsappname": "clone24de1ac4a8544f68b95491866ad4c640!b130530|destination-xsappname!b404",
+					"clientsecret": "af146705-a7e0-4567-bc37-6e7b240cddd0$ICBc9Eyts7CnEN8ZkzyAOsLzEVo27IrB_S_fA1p55qc=",
+					"uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com",
+					"url": "https://ngproc-dev-eu10.authentication.eu10.hana.ondemand.com",
+					"uaadomain": "authentication.eu10.hana.ondemand.com",
+					"instanceid": "24de1ac4-a854-4f68-b954-91866ad4c640",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiQpPKNzabfTLPr4ZObSt\nd70LzVek9VfE2NX9BQiOScPh07kYhtmhoIzrBP8UUVvnHfjSKXRpmbeqDMHWGvYu\nMU9X/bghJ2S9+SwZxsRR3DIOvJOdbpC3u97zrf1wvVyICZ9SNZMnSagq4j4dDagX\n5/SRppw56woAokoC1SjuR1zbA3OzrSQc/cmFT/nM9IT8yaChIlpjsxLQb/CSMSyC\nVK3MgoZdEKfwXFux0M+dTcaabieH+cmF4ZxxdWC8BXXtkHHcKM8yQuyWvfLHohrB\nCGfps0YpS/niFPWvGPjj59553tBTzzJh3uPWplPOH3vVLyi87WjSNQnr9A88Ht4C\nKQIDAQAB\n-----END PUBLIC KEY-----",
+					"identityzone": "ngproc-dev-eu10",
+					"tenantid": "2d2dfaf0-0227-4d7d-b89d-9fa262f3488d"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+		"cloud-logging": [
+			{
+				"label": "cloud-logging",
+				"provider": null,
+				"plan": "standard",
+				"name": "cloud-logging",
+				"tags": [
+					"Cloud Logging"
+				],
+				"instance_guid": "c4e7d867-14e3-4620-b06d-aa9bd6636efa",
+				"instance_name": "cloud-logging",
+				"binding_guid": "cf520b1d-77f6-4113-adfd-e18db0350307",
+				"binding_name": null,
+				"credentials": {
+					"backend-endpoint": "backend-sf-c4e7d867-14e3-4620-b06d-aa9bd6636efa.cls-03.cloud.logs.services.eu10.hana.ondemand.com",
+					"backend-password": "HhtfECAaHUBWCXnVXLVLFON",
+					"backend-username": "user_cf520b1d-77f6-4113-adfd-e18db0350307",
+					"client-ca": "-----BEGIN CERTIFICATE-----\nMIIE+DCCA2CgAwIBAgIEaGVIdTANBgkqhkiG9w0BAQsFADCBozELMAkGA1UEBhMC\nREUxGzAZBgNVBAgTEkJhZGVuLVd1ZXJ0dGVtYmVyZzERMA8GA1UEBxMIV2FsbGRv\ncmYxDzANBgNVBAoTBlNBUCBTRTEOMAwGA1UECxMFUGVyZlgxQzBBBgNVBAMTOnJv\nb3QtY2Etc2YtYzRlN2Q4NjctMTRlMy00NjIwLWIwNmQtYWE5YmQ2NjM2ZWZhLTE3\nNTE0NjgxNDkwHhcNMjMwODEwMTAwNTU3WhcNMzMwODEwMTAwNTU3WjCBozELMAkG\nA1UEBhMCREUxGzAZBgNVBAgTEkJhZGVuLVd1ZXJ0dGVtYmVyZzERMA8GA1UEBxMI\nV2FsbGRvcmYxDzANBgNVBAoTBlNBUCBTRTEOMAwGA1UECxMFUGVyZlgxQzBBBgNV\nBAMTOnJvb3QtY2Etc2YtYzRlN2Q4NjctMTRlMy00NjIwLWIwNmQtYWE5YmQ2NjM2\nZWZhLTE3NTE0NjgxNDkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCa\ncUbAxK0jUhIbOeZ+nffUxxASb6L0O4jfPuJfqKRIUAlEi2lkK5P5nCEMWKpKCKr6\nD3wsd6OzV54y0mto3mZZtDChBQ2/luF+7gLn7GjDiuyUEesyGb717WW1EWXZeUs/\ngp+AjJD7PMokMNvzaEjDPRl6cBorCs75U68+m3reBZV9z/k2c7987iEgaagiGKyS\nVAthZhTM6268AjbPfspHAbncJrj73ERLWbzj3BE/JhC1p4HiKJ+o+/Xb9Z6NIvRR\nbaDWw/SRvSgMON6ekBf8F6LvNnHQlFIJ1Y/tfazuAHAapQ2eIaQmaZJmFvUsW111\noCgR2SeBTiWdbPhRC8nAbMxm9dqHOAobQ6HI0wzpKIRWtSmHRtER1TD1uYCH504A\niClSCtsm7IpOx0cPtCdMAwg02ip3086oxoyB+0OCwel9p851yzJ3rGprursH073e\nVfrS23g/JAjXa0j73tBxKDQy8hm80dsmc8Gxx7NrIRAO+Vm8NTfWArnarJV08P8C\nAwEAAaMyMDAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQU82N1NRnfkTu627nx\ny9UkjW79NjAwDQYJKoZIhvcNAQELBQADggGBAJi7725uTo8lgKkGdal9UjXzGjOW\nMMZq7wwc3OhoPi2jgRXhjoDihW27l0qaYILUVeGdHT4ifoHQkKDBUnOWKOWuKdtm\nGDSW5MqPdwuScq1KfabAT34d0lR/c0nd8lL5XafUeVNn91f6JpnIz7ZrKq9JDLNw\nkgnCJoXldUAmHZefBNMfBgXxcK54xaZWisdbBIFe3CVWDcj1qKnw6xPv1qBmVcL1\nq7S+g2GqKtFZ21fwNw+Ydas7s5PdYDtgZAjWxdDqXK+XGRpENhFAzmag2UkSBnhT\nzS6IZZOLi6pYcDJ5Tm+v+PP/zz+OMIItB/WPnjX9Hio+J9NTgs87A3EvUExVvHEC\nifs3GgydQsTl3cI1hqBINzaGwnjVdBgm5egSUZOAQFK8P2iDqaUA4ZYpDugoQHYL\ne2VgSITQL1UY+bGWVciHyzW4K9URIBDXBw6ZVnEiK2sWDDvP84wUd8up6Xs8+0rp\nnp7L5i0pxYkgREbZxH95TxCZ7TUWy+FHmfFtew==\n-----END CERTIFICATE-----\n",
+					"dashboards-endpoint": "dashboards-sf-c4e7d867-14e3-4620-b06d-aa9bd6636efa.cls-03.cloud.logs.services.eu10.hana.ondemand.com",
+					"ingest-endpoint": "ingest-sf-c4e7d867-14e3-4620-b06d-aa9bd6636efa.cls-03.cloud.logs.services.eu10.hana.ondemand.com",
+					"ingest-mtls-cert": "-----BEGIN CERTIFICATE-----\nMIIE+DCCA2CgAwIBAgIGV7JJ74ePMA0GCSqGSIb3DQEBCwUAMIGjMQswCQYDVQQG\nEwJERTEbMBkGA1UECBMSQmFkZW4tV3VlcnR0ZW1iZXJnMREwDwYDVQQHEwhXYWxs\nZG9yZjEPMA0GA1UEChMGU0FQIFNFMQ4wDAYDVQQLEwVQZXJmWDFDMEEGA1UEAxM6\ncm9vdC1jYS1zZi1jNGU3ZDg2Ny0xNGUzLTQ2MjAtYjA2ZC1hYTliZDY2MzZlZmEt\nMTc1MTQ2ODE0OTAeFw0yNDA0MjkxMDA2NDVaFw0yNDA3MjgxMDA2NDVaMIGiMQsw\nCQYDVQQGEwJERTEbMBkGA1UECBMSQmFkZW4tV3VlcnR0ZW1iZXJnMRIwEAYDVQQH\nEwlLYXJsc3J1aGUxDzANBgNVBAoTBlNBUCBTRTEWMBQGA1UECxMNQ2xvdWQgTG9n\nZ2luZzE5MDcGA1UEAxMwY2VydC1jZjUyMGIxZC03N2Y2LTQxMTMtYWRmZC1lMThk\nYjAzNTAzMDctaW5nZXN0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA\n1Q+SjA0SVLalDELfofJ6yOpH7gn7UDbWYYnkZztmo/3EdSasTcwZlDv5ZhaTaM+1\nITUnnAs9JPmPUizRJLVgr5/UBidMishOKrrtwnaBlBJ5n8bon7eLluzGTf1q8Nza\n6BbVa4nPlCb0rBQmYjzwkSASwpbZifWWJ405Wi6wB8BbNX4Bu6pZ8gA5l3mpQQi2\nm4geNI0LP5gWm0zisYIL0cW5LnkRGe6f2wsurG/tv0R7IbxlbEj24WbCz8HtbDEc\nd63jP5DV0cRc2LQUjsURxcQEOk7r7N5Z7g9SfOrlEkBS074AGmUxEdNYSH7pYMFU\nl1TBsbyJAWv6Z6MfMO0U0jWzwW7Bpo0aAi9oWpAUpumt4Y7ST+5Rp7F5yeWUrQyx\ntTDbRziRuoPscOQB7pp9HllgP5SlO2fvZ1JqLVNjPFQe1JmJgkts0q52DQC3Q6Mr\nwxUt1KesFFLhQjG7BxvXx7oJ212xwlvh3mjxHNvWyGweAXV5vdYYWbsTKAdv7g57\nAgMBAAGjMTAvMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAU82N1NRnfkTu627nx\ny9UkjW79NjAwDQYJKoZIhvcNAQELBQADggGBAI+YPaz/dfmw5yAMaDsAWk+i4PCj\n86uXogDfx4EQP0KQKQkgyN5/HyJj+mUlyJW4CZpBC6VMg/7ZmPKdiFHBOLM5Xbol\nLnGHX9ua46u3IBcMG1xkS4SXebrNqi+xz+qO+FgTm6AIEUTEbqsijSY4bBarlh8h\nesOiDUpu/z4oETL7MtiXWseB3jmCVIykCi9YJEoGsaf2Q7Wj+fYaho4Fd5B/E/JE\nd+m7B81qJF7A3kTBH58HEzTWeYDSLQjKUnRb8cuNtYdXb0LUGzNBbXoIEgGNLLWx\nGnJaVO7kQb74qVXxkF5LBeN8H2A8kERl8sMkE6qA6OXXPhjdslGon8UhHruceEgI\nMUKpLEUvRcVqLMnNPj4xkOxAQWIXzWYqLHdWibnrIJrsjBIuc6oVQnKVxUEfLg3C\nGGzRJr7N8JWy7K4I0RuOO/LJfAjk2DcnxdVuqE7P8iVE6kh0UEui0cYDbaL+xKbC\nJLqIgDyRSzndQK37fQutm7oWsatdYzdCw6H2nw==\n-----END CERTIFICATE-----\n",
+					"ingest-mtls-endpoint": "ingest-mtls-sf-c4e7d867-14e3-4620-b06d-aa9bd6636efa.cls-03.cloud.logs.services.eu10.hana.ondemand.com",
+					"ingest-mtls-key": "-----BEGIN PRIVATE KEY-----\n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\nlnOC5h/GX1elibKv70j+TxU=\n-----END PRIVATE KEY-----\n",
+					"ingest-password": "TvaoCFvlVhbBWexFeHXldCp",
+					"ingest-username": "TphVWdhNRe",
+					"server-ca": "\n-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n"
+				},
+				"syslog_drain_url": "https://TphVWdhNRe:TvaoCFvlVhbBWexFeHXldCp@ingest-sf-c4e7d867-14e3-4620-b06d-aa9bd6636efa.cls-03.cloud.logs.services.eu10.hana.ondemand.com/cfsyslog",
+				"volume_mounts": []
+			}
+		],
+		"service-manager": [
+			{
+				"label": "service-manager",
+				"provider": null,
+				"plan": "container",
+				"name": "p2p-adapter-service-mgr",
+				"tags": [],
+				"instance_guid": "e29d37a0-baff-4296-85d5-4198d5743532",
+				"instance_name": "p2p-adapter-service-mgr",
+				"binding_guid": "c2d48ab6-fecf-4d72-a947-64bcb5d0c3a4",
+				"binding_name": null,
+				"credentials": {
+					"sm_url": "https://service-manager.cfapps.eu10.hana.ondemand.com",
+					"url": "https://ngproc-dev-eu10.authentication.eu10.hana.ondemand.com",
+					"clientid": "sb-e29d37a0-baff-4296-85d5-4198d5743532!b130530|service-manager!b8989",
+					"clientsecret": "c2d48ab6-fecf-4d72-a947-64bcb5d0c3a4$FxKGaEM4YH8tCLhcHp8ugMZ-tw_447K4MpPE5_vCImk=",
+					"xsappname": "e29d37a0-baff-4296-85d5-4198d5743532!b130530|service-manager!b8989"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+		"user-provided": [
+			{
+				"label": "user-provided",
+				"name": "themisto-access-data",
+				"tags": [],
+				"instance_guid": "59da8f92-223a-44f3-9b13-0fd195a40d1b",
+				"instance_name": "themisto-access-data",
+				"binding_guid": "d7aba782-99ad-4539-b27b-93b8ef9a575a",
+				"binding_name": null,
+				"credentials": {
+					"password": "N1G4MM_F*nzfNU",
+					"url": "https://themisto-proc.cfapps.eu10.hana.ondemand.com",
+					"user": "oneproc-themisto-user"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			},
+			{
+				"label": "user-provided",
+				"name": "apicurio-registry-mtls-access-dt",
+				"tags": [],
+				"instance_guid": "bb791765-9acc-42fa-a614-424c10c83f76",
+				"instance_name": "apicurio-registry-mtls-access-dt",
+				"binding_guid": "614de575-702a-447d-ab2e-7e31690614ee",
+				"binding_name": null,
+				"credentials": {
+					"url": "https://apicurio-registry-ngproc-dev-eu10.cert.cfapps.eu10-004.hana.ondemand.com",
+					"desc": "OneProcurement Apicurio Registry URL"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			},
+			{
+				"label": "user-provided",
+				"name": "jupiter",
+				"tags": [],
+				"instance_guid": "66a142ce-d05a-488d-a37d-409343d60360",
+				"instance_name": "jupiter",
+				"binding_guid": "99c6f146-2044-42b0-b720-ab6370f1d6a4",
+				"binding_name": null,
+				"credentials": {
+					"url": "https://eu10-dev.operational.procurement.cloud.sap"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+		"dynatrace": [
+			{
+				"label": "dynatrace",
+				"provider": null,
+				"plan": "environment",
+				"name": "proc-dynatrace",
+				"tags": [
+					"dynatrace"
+				],
+				"instance_guid": "1fce76a0-497e-4a0e-a871-67db3bea6043",
+				"instance_name": "proc-dynatrace",
+				"binding_guid": "b6d7cf6a-d1d0-4635-bae7-5b707c228d7e",
+				"binding_name": null,
+				"credentials": {
+					"apitoken": "dt0c01.HT2CWF263W6U5LTWARXBZTYG.F5D5ASEACAHI72363CE3PARJXCZP365GI7IF3G3RXLKMZMCENN63T3H6KVNHXOGF",
+					"apiurl": "https://live.eu10.apm.services.cloud.sap/e/1e81c390-ff6c-4aac-85bc-cb82fa8c3486/api",
+					"environmentid": "1e81c390-ff6c-4aac-85bc-cb82fa8c3486",
+					"permission_assignments": [
+						{
+							"name": "ONEPROCPX DYNATRACE ADMIN",
+							"roles": [
+								"admin",
+								"user"
+							]
+						},
+						{
+							"name": "ONEPROCPX DYNATRACE USER",
+							"roles": [
+								"user"
+							]
+						},
+						{
+							"name": "ONEPROCPX DYNATRACE SensData",
+							"roles": [
+								"view_sensitive",
+								"configure_sensitive"
+							]
+						},
+						{
+							"name": "Deploy with Confidence Team",
+							"roles": [
+								"user"
+							]
+						}
+					],
+					"token_expiry": "2025-04-29T10:06:34.509Z"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}

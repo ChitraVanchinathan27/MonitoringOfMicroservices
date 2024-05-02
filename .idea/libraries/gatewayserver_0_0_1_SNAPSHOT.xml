@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gatewayserver-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
